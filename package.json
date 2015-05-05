@@ -1,0 +1,17 @@
+{
+	"name": "seneca-mqlight-transport",
+	"version": "0.0.6",
+	"description": "Seneca MQ Light transport",
+	"main": "mqlight-transport.js",
+	"author": "Al S-M",
+	"license": "EPL",
+	"dependencies": {
+		"mqlight": ">=1.0.2014091000",
+		"lodash": "~2.4.1"
+	},
+	"files": [
+		"README.md",
+		"LICENSE",
+		"mqlight-transport.js"
+	]
+}
