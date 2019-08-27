@@ -1,3 +1,10 @@
+# Deprecation notice
+
+Please note, this repository is deprecated and no longer supported. 
+It is highly recommended that you ensure that package dependancies are updated to the latest version to get the latest security patches.
+
+# Project details
+
 This project contains an implementation for using MQ Light as the transport with the [seneca](http://senecajs.org) micro-services framework.
 
 ```javascript
