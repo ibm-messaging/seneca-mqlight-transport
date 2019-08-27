@@ -1,7 +1,7 @@
 # Deprecation notice
 
 Please note, this repository is deprecated and no longer supported. 
-It is highly recommended that you ensure that package dependancies are updated to the latest version to get the latest security patches.
+It is highly recommended that you ensure that package dependencies are updated to the latest version to get the latest security patches.
 
 # Project details
 
