@@ -101,6 +101,16 @@ module.exports = function(options) {
 	}
 
 	function hook_client_mqlight(args, clientdone) {
+
+        /* 
+         * Issue in upstream attaching 'ID' in args that is not compatable with
+         * mqlight requirements. If the pattern matches, delete the id. This
+         * will cause mqlight to generate a ID automaticly. 
+         */
+
+        if(args.id.indexOf('type:mqlight') >= 0)
+            delete args.id;
+
 		var seneca = this
 		var type = args.type
 		var client_options = seneca.util.clean(_.extend({}, options[type], args))
